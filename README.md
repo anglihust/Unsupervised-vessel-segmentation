@@ -25,8 +25,8 @@ Run the training.py for Step 1 or 2 and run predict.py for image segmentation
 # Results
 |                       | DRIVE(source) | OCTA(target)|
 | --------------------- |:-------------:| -----------:|
-| DenseNet without DA   | Dice 0.951    | Dice 0.592  |
-| DenseNet+mutli_fusion | NA            | Dice 0.805  |
+| DenseNet without DA   | 0.951(Dice)   | 0.592       |
+| DenseNet+mutli_fusion | NA            | 0.805       |
 
 We tested the implementation on our own Optical Coherence Tomography Angiography(OCTA) dataset. The best combination is using DenseNet + multi-layer fusion + AD loss.
 
