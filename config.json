@@ -1,0 +1,18 @@
+{
+  "step1_epochs": 30,
+  "step2_epochs": 80,
+  "batch_size":24,
+  "patch_diameter": 96,
+  "stride":96,
+  "normalize": 1,
+  "residual": 1,
+  "src_height":565,
+  "src_width": 584,
+  "tgt_height": 1000,
+  "tgt_width": 784,
+  "class_num": 2,
+  "binary_out": false,
+  "unsupervised": true,
+  "multi_fusion": false,
+  "model_type":"dense"
+}
